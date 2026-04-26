@@ -1,0 +1,44 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+
+# Rider / Visual Studio / VS Code
+.idea/
+.vs/
+.vscode/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Rider/ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Local config / secrets
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+*.key
+
+# macOS
+.DS_Store
+
+# Claude / agent state
+.claude/
