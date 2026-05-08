@@ -1,6 +1,6 @@
 # Bucket-hashing a set for geo-aware output caches
 
-A small .NET pattern for keeping output caches correct under geo filtering, without exploding cache cardinality and without coordinated invalidation.
+A small .NET pattern for keeping output caches correct under geo filtering, without exploding cache cardinality and without coordinated invalidation. I wrote about the thinking behind it [on Medium](https://melkisetoglu.medium.com/caching-a-geo-restricted-app-without-the-cache-exploding-4b0c00d1410e).
 
 The library targets **`netstandard2.0`** so it drops into both modern (`net6+`) and legacy (`net48`) consumers. The runnable sample is **.NET 10** ASP.NET Core minimal API using the `OutputCache` middleware. Porting notes for the classic .NET Framework `OutputCache` are at the bottom.
 
